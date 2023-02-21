@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Extreme Programming</title>
+    <meta name="description" content="Extreme Programming" />
+    <meta name="keywords" content="Extreme Programming" />
+    <meta name="author" content="Asith Saranga" />
+    <meta name="robots" content="index, follow" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <link rel="preload" as="image" href="1.jpg" />
+    <link rel="preload" as="image" href="2.jpg" />
+    <link rel="preload" as="image" href="3.jpg" />
+    <link rel="preload" as="image" href="4.jpg" />
+    <link rel="preload" as="image" href="5.jpg" />
+    <link rel="preload" as="image" href="6.jpg" />
+    <link rel="preload" as="image" href="7.jpg" />
+    <link rel="preload" as="image" href="8.jpg" />
+    <link rel="preload" as="image" href="9.jpg" />
+  </head>
+  <body>
+    <main>
+      <h1>EXTREME PROGRAMMING</h1>
+      <button onclick="explore()">Click</button>
+      <h3 onclick="teamMembers()">Team Members</h3>
+    </main>
+    <div id="teamMembers">
+      <h1 class="heading">Team Members</h1>
+      <div class="profiles">
+        <div class="profile">
+          <img src="WhatsApp Image 2023-02-15 at 5.31.08 PM.jpeg" class="profile-img" />
+          <h3 class="member-name">Amika Vithana</h3>
+          <h5>SA22424648</h5>
+          <h5>Team Member</h5>
+        </div>
+        <div class="profile">
+          <img
+            src="WhatsApp Image 2023-02-17 at 8.31.14 AM (1).jpeg"
+            class="profile-img"
+          />
+          <h3 class="member-name">Wenuka Bometh</h3>
+          <h5>SA22428042</h5>
+          <h5>Team Member</h5>
+        </div>
+        <div class="profile">
+          <img src="IMG-20230130-WA0008.jpg" class="profile-img" />
+          <h3 class="member-name">Asith Saranga</h3>
+          <h5>SA22424914</h5>
+          <h5>Project Manager And Website Creater</h5>
+        </div>
+        <div class="profile">
+          <img src="WhatsApp Image 2023-02-16 at 7.32.17 PM (1).jpeg" class="profile-img" />
+          <h3 class="member-name">Akshai Raj</h3>
+          <h5>SA22425072</h5>
+          <h5>Team Member</h5>
+        </div>
+        <div class="profile">
+          <img
+            src="WhatsApp Image 2023-02-17 at 8.30.34 AM.jpeg"
+            class="profile-img"
+          />
+          <h3 class="member-name">Gagan</h3>
+          <h5>SA22490254</h5>
+          <h5>Team Member</h5>
+        </div>
+      </div>
+      <button onclick="closeTeamMembers()">Close</button>
+    </div>
+    <nav>
+      <h2>Select a Topic</h2>
+      <ol>
+        <li onclick="showMethodology(1)">What is Extreme Programming ?</li> 
+        <li onclick="showMethodology(2)">History</li>
+        <li onclick="showMethodology(3)">Concept</li>
+        <li onclick="showMethodology(5)">Advantages</li>
+        <li onclick="showMethodology(6)">Disadvantages</li>
+        <li onclick="showMethodology(8)">References</li>
+        <li onclick="showMethodology(9)">Thanks</li>
+        <li onclick="exit()">~ Exit to main menu</li>
+      </ol>
+    </nav>
+    <section>
+      <div id="left">
+        <header>
+          <button onclick="showBack()">Back</button>
+          <button onclick="showList()">List</button>
+          <button onclick="showNext()">Next</button>
+        </header>
+        <h2></h2>
+        <span id="content"></span>
+      </div>
+      <div id="right">
+        <img alt="image" />
+      </div>
+    </section>
+  </body>
+</html>
